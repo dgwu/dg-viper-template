@@ -6,7 +6,7 @@ class ___VARIABLE_viperModuleName___View: UIViewController, ___VARIABLE_viperMod
     var presenter: ___VARIABLE_viperModuleName___ViewToPresenter?
     
     init() {
-        super.init(nibName: "___VARIABLE_viperModuleName___View", bundle: Bundle(for: ___VARIABLE_viperModuleName___View.self))
+        super.init(nibName: String(describing: ___VARIABLE_viperModuleName___View.self), bundle: Bundle(for: ___VARIABLE_viperModuleName___View.self))
     }
     
     required init?(coder aDecoder: NSCoder) {
